@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1deeb5b984e449cb80f7d3ce99bf2e3" Name="Diagram1">
+        <EntityTypeShape EntityType="firma_deweloperskaModel.BACKENDOWCY" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.BAZODANOWCY" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.DEADLINE" Width="1.5" PointX="10.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.FRONTENDOWCY" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.KIEROWNICY" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.PRACOWNICY" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.PRIORYTETY" Width="1.5" PointX="6" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.PROJEKTANCI" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.PRZEZNACZENIE" Width="1.5" PointX="9.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.SPRZET" Width="1.5" PointX="3.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.STANOWISKO" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.TESTERZY" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.UMOWY" Width="1.5" PointX="7.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.WYDATKI" Width="1.5" PointX="7.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.ZESPOLY" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.ZLECENIA" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="firma_deweloperskaModel.ZYSKI" Width="1.5" PointX="10.5" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_STANOWIS_RELATIONS_BACKENDO" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_BACKENDO" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_STANOWIS_RELATIONS_BAZODANO" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_BAZODANO" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_DEADLINE_RELATIONS_ZLECENIA" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZLECENIA_RELATIONS_DEADLINE" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_STANOWIS_RELATIONS_FRONTEND" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_FRONTEND" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_STANOWIS_RELATIONS_KIEROWNI" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_KIEROWNI" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_PRACOWNI_RELATIONS_STANOWIS" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_UMOWY_RELATIONS_PRACOWNI" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_WYDATKI_RELATIONS_PRACOWNI" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZLECENIA_RELATIONS_PRIORYTE" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_STANOWIS_RELATIONS_PROJEKTA" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_PROJEKTA" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_PRZEZNAC_RELATIONS_WYDATKI" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_SPRZET" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_STANOWIS_RELATIONS_TESTERZY" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZESPOLY_RELATIONS_TESTERZY" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZLECENIA_ZESPO_Y_Z_ZESPOLY" ManuallyRouted="false" />
+        <AssociationConnector Association="firma_deweloperskaModel.FK_ZYSKI_RELATIONS_ZLECENIA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
